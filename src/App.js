@@ -9,8 +9,12 @@ function App() {
             className="logo"
             alt="logo de app calculadora" />
        </div>
-       <div className='contenedor-calculadora'>
-         
+       <div className="contenedor-calculadora">
+          <div className="fila"></div>
+          <div className="fila"></div>
+          <div className="fila"></div>
+          <div className="fila"></div>
+          <div className="fila"></div>
        </div>
     </div>
   );
