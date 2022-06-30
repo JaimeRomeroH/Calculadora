@@ -1,6 +1,7 @@
 import './App.css';
 import logo from './imagenes/logo.png';
 import Boton from './Componentes/Boton'
+import Pantalla from './Componentes/Pantalla';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
             alt="logo de app calculadora" />
        </div>
        <div className="contenedor-calculadora">
+          <Pantalla />
           <div className="fila">
             <Boton>1</Boton>
             <Boton>2</Boton>
