@@ -2,6 +2,7 @@ import './App.css';
 import logo from './imagenes/logo.png';
 import Boton from './Componentes/Boton'
 import Pantalla from './Componentes/Pantalla';
+import BotonClear from './Componentes/BotonClear';
 function App() {
   return (
     <div className="App">
