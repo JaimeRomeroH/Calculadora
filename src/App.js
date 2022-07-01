@@ -3,7 +3,12 @@ import logo from './imagenes/logo.png';
 import Boton from './Componentes/Boton'
 import Pantalla from './Componentes/Pantalla';
 import BotonClear from './Componentes/BotonClear';
+import {useState} from 'react'
+
 function App() {
+
+  const [input, setInput] = useState(""); 
+
   return (
     <div className="App">
        <div className="logo-contenedor">
@@ -13,7 +18,7 @@ function App() {
             alt="logo de app calculadora" />
        </div>
        <div className="contenedor-calculadora">
-          <Pantalla />
+          <Pantalla input={input}/>
           <div className="fila">
             <Boton>1</Boton>
             <Boton>2</Boton>
